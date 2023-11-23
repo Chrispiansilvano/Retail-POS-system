@@ -1,0 +1,45 @@
+
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15%;
+    gap: 2rem;
+    /* border: 5px solid firebrick; */
+}
+
+.columns > *{
+    /* flex: 1; */
+}
+@media (min-width: 750px){
+    .columns{
+        margin-top: 6%;
+        flex-direction: row;
+    }
+}
+@media (max-width: 750px){
+    .columns .card .mycard{
+        width: 40%;
+        
+    }
+}
+
+.columns .card .mycard{
+    background-color: #007BFF;
+    /* width: 50%; */
+    height: 60%;
+    /* margin-top: 5%; */
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.columns .card .mycard:hover{
+    background-color: #4CAF50;
+}
+.columns .card .mycard h1{
+   color: white;
+   font-family: "Google Sans", sans-serif;   
+}
+
