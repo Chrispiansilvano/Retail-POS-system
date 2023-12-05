@@ -10,7 +10,7 @@
 <?php include('../header.php') ?>
     <div class="login-form">
         <h2>Welcome Cashier</h2>
-        <form action="" method="post" autocomplete="off">
+        <form action="../cashier/index.php" method="post" autocomplete="off">
             
             
             <input type="text" name="email" placeholder="email" value="">
@@ -24,6 +24,7 @@
         </form>
     </div>
     <?php include('../Footer.php') ?>
+    
 </body>
 
 </html>

@@ -27,7 +27,7 @@
             <input type="submit" value="Sign Up">
             <br>
             <br>
-            <a href="" style="color: white">Already have an account? Login</a>
+            <a href="./cashierLogin.php" style="color: white">Already have an account? Login</a>
         </form>
     </div>
     <?php include('../Footer.php') ?>

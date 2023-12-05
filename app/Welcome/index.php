@@ -21,7 +21,7 @@
 
         </article>
         <article class="card">
-            <a href="">
+            <a href="../authentication/managerLogin.php">
                 <div class="mycard">
                     <h1>Manager</h1>
                 </div>
@@ -29,7 +29,7 @@
 
         </article>
         <article class="card">
-            <a href="">
+            <a href="../authentication//AdminLogin.php">
                 <div class="mycard">
                     <h1>Adminstrator</h1>
                 </div>
