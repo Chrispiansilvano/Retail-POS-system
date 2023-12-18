@@ -10,12 +10,13 @@
 </head>
 
 <body>
+    
 
     <!-- Top Panel -->
     <div class="top-panel">
 
         <div class="logo">
-            <img src="../../sources/images/X_logo.png" alt="logo" height="50px" width="50px">
+            <img src="../sources/images/X_logo.png" alt="logo" height="50px" width="50px">
         </div>
         <div class="headings">
             <h3>Retail Pos system</h3>
