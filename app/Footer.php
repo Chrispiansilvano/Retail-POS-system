@@ -7,7 +7,7 @@
     <title>footer</title>
     <style>
     .footer {
-    background-color: #f2f2f2;
+    background-color: rgb(146, 179, 232);
     padding: 10px 0;
     position: fixed;
     bottom: 0;
@@ -48,7 +48,7 @@
 </head>
 <body>
 <footer class="footer">
-    <p>© 2023 Zandani Inc. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
+    <p style="color: white; font-weight:500">© 2023 Zandani Inc. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
 
     <div class="social-icons">
         <i class="fa fa-facebook"></i>
