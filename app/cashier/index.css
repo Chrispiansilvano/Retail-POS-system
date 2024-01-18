@@ -4,20 +4,26 @@
 
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: rgb(237, 236, 236);
 }
 
 .top-panel {
-    background-color: #007BFF;
-    color: #fff;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    margin-left: 90px;
+    margin-top: 20px;
 }
 
 .user-profile {
@@ -28,7 +34,7 @@ body {
 .user-circle {
     width: 30px;
     height: 30px;
-    background-color: #fff;
+    background-color: #12e16c33;
     border-radius: 50%;
     margin-right: 5px;
 }
@@ -79,16 +85,15 @@ nav a {
 
 nav li:hover {
     /* background-color: #4CAF50; */
-    font-size: 17px;
-    padding-left: 20px;
+    font-size: 13px;
+    padding-left: 10px;
 }
 
 
-
-#sales {
+#dashboard {
     display: block;
 }
-
+#sales,
 #reports,
 #myStore,
 #orders,
@@ -103,8 +108,193 @@ nav li:hover {
 }
 
 .content{
+    width: 87%;
     float: left;
+    
 }
+.dashboard-content{
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 700px;
+    border-radius: 20px;
+}
+.select-time{
+    padding: 20px;
+    margin-left: 20px;
+}
+.dash-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.dash-cards h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* background-color: grey; */
+}
+.dash-card1{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(241, 101, 101);
+
+}
+.dash-card2{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(57, 46, 46);
+}
+.dash-card3{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(169, 172, 12);
+}
+.dash-card4{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgba(118, 164, 33, 0.994);
+}
+.contentTag{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* background-color: grey */
+}
+.popular-products{
+    height: 300px;
+    width: 1540px;
+    background-color: rgb(237, 236, 236);
+    margin-left: 55px;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+}
+.popular-products h1{
+    color: black;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.sales-actions {
+    /* float: right; */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.transaction-button{
+    background-color: rgb(17, 128, 17);
+    height: 40px;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.sales-details{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .sales-table th,
+  .sales-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .sales-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .sales-table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .sales-table td button {
+    border: none;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .sales-table td button:hover {
+    background-color: #0069d9;
+  }
+  .dlt-btn{
+        color: rgb(210, 42, 42);
+  }
+
+
+/* ****************** */
+.inventory-actions {
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.add-button{
+    background-color: rgb(17, 128, 17);
+    height: 40px;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.inventory-details{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .inventory-table th,
+  .inventory-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .inventory-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .inventory-table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .inventory-table td button {
+    border: none;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .inventory-table td button:hover {
+    background-color: #0069d9;
+  }
+  .dlt-btn{
+        color: rgb(210, 42, 42);
+  }
 
 
 /* Font Awesome Icons (you need to include the Font Awesome library) */

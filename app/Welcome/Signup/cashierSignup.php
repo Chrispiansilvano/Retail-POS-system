@@ -11,14 +11,14 @@
     <!-- <?php include('../header.php') ?>? -->
     <div class="header">
         <div class="logo">
-            <img src="../../../sources/images/X_logo.png" alt="logo" height="50px" width="50px">
+            <img src="../../sources/images/X_logo.png" alt="logo" height="50px" width="50px">
         </div>
         <div class="headings">
             <h3>Retail Pos system</h3>
         </div>
     </div>
     <div class="signup-form">
-        <h2>Welcome Cashier</h2>
+        <h2>SignUp</h2>
         <form action="" method="post" autocomplete="off">
 
 
